@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="https://code.createjs.com/createjs-2015.05.21.min.js"></script>
+    <script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
+    <script src="https://code.createjs.com/soundjs-0.6.1.min.js"></script>
+    <script src="https://code.createjs.com/preloadjs-0.6.2.min.js"></script>
+
+    <title>iPushkin</title>
+</head>
+<body>
+    <div id="sidebar">
+        <div id="present">
+            <img id="present-img" src="img/present.png"/>
+            <p id="present-num">Нажми!</p>
+            <p id="present-info">Отработай мобилу!</p>
+            <ul id="menu">
+                <li class="m-on" id="hire">Купить</li>
+                <li class="m-off" id="policy">Политика</li>
+                <li class="m-off" id="manage">Продать</li>
+            </ul>
+        </div>
+        <ul id="item-list" class="on list">
+            <li class="preview">
+                <img class="item-img preview-img" src="img/dolf.gif"/>
+                <p>???<img class="item-present-img" src="img/present.png"/>
+                    <span class="t">30</span>
+                    <br/><span class="pr">??? ~ ??? мобил/сек</span>
+                </p>
+            </li>
+        </ul>
+        <ul id="policy-list" class="off list">
+        </ul>
+        <ul id="manage-list" class="off list">
+        </ul>
+    </div>
+
+    <a target="_blank" href="https://vk.com/fu_ad"><img class="top-icon" src="img/vk.png"/></a>
+    <img class="top-icon" id="credit-icon" src="img/credit.png"/>
+    <img class="top-icon" id="sound-icon" src="img/sound-on.png"/>
+    <div id="play-ground">
+    </div>
+
+    <script src="data.js"></script>
+    <script src="santa.js"></script>
+</body>
+</html>
